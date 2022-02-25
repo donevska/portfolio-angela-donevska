@@ -32,6 +32,11 @@ p {
   line-height: 1.5;
 }
 
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -44,21 +49,23 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  line-height: 27px;
 }
 
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  line-height: 27px;
 }
 
 .homepage-link {
