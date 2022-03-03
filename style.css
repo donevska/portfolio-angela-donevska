@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  font-family: "Abel", sans-serif;
 }
 
 h1 {
@@ -76,10 +77,11 @@ hr {
 .hero {
   text-align: center;
   padding: 30px 20px;
+  background-color: var(--secondary-color);
 }
 
 .about-section {
-  padding: 30px 20px;
+  padding: 10px 20px;
 }
 
 .navigation-links {
